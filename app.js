@@ -15,6 +15,10 @@ app.get('/admission', (req, res) => {
    res.render('Admission');
 });
 
+app.get('/bTech', (req, res) => {
+   res.render('BTech');
+});
+
 app.listen(port, () => {
    console.log("Server started. Port:", port);
 });
