@@ -1,4 +1,26 @@
+*{
+   box-sizing: border-box;
+}
+
 .nav-item {
    float: left;
    padding-left: 36px;
+}
+
+.navbar-fixed{
+   position: relative;
+   background-color: #384b7b;
+}
+
+.nav-head{
+   font-size: 2rem;
+}
+
+#testimonials {
+  background-color: lightblue;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
