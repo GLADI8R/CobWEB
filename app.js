@@ -9,7 +9,11 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) => {
    res.render('Home');
-})
+});
+
+app.get('/admission', (req, res) => {
+   res.render('Admission');
+});
 
 app.listen(port, () => {
    console.log("Server started. Port:", port);
