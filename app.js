@@ -23,6 +23,10 @@ app.get('/MTech', (req, res) => {
    res.render('MTech');
 });
 
+app.get('/PhD', (req, res) => {
+   res.render('PhD');
+});
+
 app.listen(port, () => {
    console.log("Server started. Port:", port);
 });
