@@ -16,11 +16,48 @@
    font-size: 2rem;
 }
 
-#testimonials {
+.testimonials {
   background-color: lightblue;
 }
 
 .testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
+}
+
+.carousal-height {
+   height: auto;
+}
+
+.fit {
+   min-width: 99%;
+   max-height: 99%;
+}
+
+.centered {
+  position: absolute;
+  top: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+   .centered {
+      position: absolute;
+      top: 15%;
+      font-size: 3rem;
+   }
+   img {
+      display: none;
+   }
+
+   #mainDiv {
+      position: relative;
+      height: 18rem;
+      margin-top: 0%;
+      margin-bottom: 32%;
+   }
+}
+
+.background-tint {
+  background-color: rgba(200,100,0,.5); /* Tint color */
+  background-blend-mode: multiply;
 }
