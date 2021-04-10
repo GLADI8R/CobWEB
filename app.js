@@ -35,6 +35,14 @@ app.get('/labs', (req, res) => {
    res.render('Laboratory');
 });
 
+app.get('/resProj', (req, res) => {
+   res.render('ResearchProjects');
+});
+
+app.get('/resFaci', (req, res) => {
+   res.render('ResearchFacilities');
+});
+
 app.listen(port, () => {
    console.log("Server started. Port:", port);
 });
