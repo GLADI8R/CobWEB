@@ -31,6 +31,10 @@ app.get('/faculty', (req, res) => {
    res.render('Faculty');
 });
 
+app.get('/labs', (req, res) => {
+   res.render('Laboratory');
+});
+
 app.listen(port, () => {
    console.log("Server started. Port:", port);
 });
