@@ -1,3 +1,3 @@
 # CobWEB
-This is the website demo of Electronics and Communication Engineering Department.
+This is the website demo of Electronics and Communication Engineering Department of SVNIT, Surat.
 
